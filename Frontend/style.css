@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    background-color: #efcaa5;
+    display: flex;
+    height: 10vh;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#search{
+    height: 4vh;
+    border-radius: 8px;
+    flex-grow: 1;
+    max-width: 25vw;
+}
+.products{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
+}
+.card{
+  padding: 15px;
+  display: flex;
+  border-radius: 10px;
+  height: 50vh;
+  width: 30vw;
+  margin: 5vh 5vw 5vh 5vw;
+  flex-direction: column;
+  align-items: center;
+  background-color: #faedcd;
+}
+.card img{
+    padding: 15px;
+    overflow: hidden;
+    height: 60%;
+    width: 60%;
+}
+.card p {
+  display: -webkit-box;
+  -webkit-line-clamp: 4; /* Change to however many lines you want */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
